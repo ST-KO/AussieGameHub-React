@@ -77,6 +77,11 @@ footer {
 
 .website-link{
   margin-top: 30px;
+  transition: transform 0.5s;
+}
+
+.website-link:hover{
+  transform: translateY(-4px);
 }
 
 .studio-card a{
@@ -119,6 +124,7 @@ footer {
   margin: 40px 0;
 }
 
+
 .flt-btn{
   cursor: pointer;
   padding: 12px 26px;
@@ -131,6 +137,7 @@ footer {
   color: #000;
   /* background: linear-gradient(90deg, #9001c8, #fc55f4); */
   /* background: linear-gradient(90deg, #755bea, #ff72c0); */
+
 }
 
 .btn-lang{
@@ -146,6 +153,7 @@ footer {
 .flt-btn:hover{
   background: linear-gradient(-90deg, #755bea, #ff72fd);
   color: #fff;
+
 }
 
 .flt-btn:active {
