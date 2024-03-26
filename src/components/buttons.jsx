@@ -20,14 +20,14 @@ const Buttons = ({isClick}) => {
 
     const selectedLanguage = (id) => {
         return(
-            selected.language === id ? 'flt-btn btn-lang' : 'flt-btn'
+            selected.language === id ? 'flt-btn lang-hover btn-lang' : 'flt-btn lang-hover'
         );
     };
 
     
     return(
         <div className="btn-filter-div">
-           <div>
+           <>
 
                 <div className='location-btn-container'>
                     <button className={selectedLocation(1)} name = "location" type='button' data-id="All" onClick={(e)=>handleClick(e, 1)}>All Locations</button>
@@ -45,7 +45,7 @@ const Buttons = ({isClick}) => {
                     <button className={selectedLanguage(4)} name = "language" type='button' data-id="JavaScript" onClick={(e)=>handleClick(e, 4)}>JavaScript</button>
                 </div>
 
-            </div>
+            </>
         
         </div>
     );

@@ -141,7 +141,7 @@ footer {
 }
 
 .btn-lang{
-  background: linear-gradient(-90deg, #755bea, #ff72fd);
+  background: linear-gradient(-90deg, #fa7143, #ffc272);
   color: #fff;
 }
 
@@ -161,6 +161,10 @@ footer {
   transform: translateY(4px);
 }
 
+.lang-hover:hover {
+  background: linear-gradient(-90deg, #fa7143, #ffc472);
+}
+
 footer{
     margin-top: 5rem;
 }
@@ -168,5 +172,30 @@ footer{
 @media (max-width: 768px) {
   .team-stats {
     flex-direction: column;
+  }
+  
+  .btn-filter-div {
+    height: 300px;
+    padding: 10px;
+    /* border: 1px solid blue; */
+}
+
+  .location-btn-container, .language-btn-container {
+    gap: 10px;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+
+    height: 100%;
+  }
+
+  .language-btn-container {
+    justify-content: space-around;
+  }
+
+  .flt-btn {
+    padding: 12px 20px;
+    font-size: 12px;
+ 
   }
 }
