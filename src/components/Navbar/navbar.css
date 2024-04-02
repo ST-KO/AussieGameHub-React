@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    height: 110px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+header .site-logo {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: auto;
+    transition: font-size 0.1s;
+}
+
+header .site-logo:hover {
+    font-size: 30px;
+}
+
+.navbar-link a{
+
+    margin-right:  auto;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px 20px;
+    transition: font-size 0.1s;
+}
+
+.navbar-link a:hover{
+
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 0 15px;
+    }
+    
+    header .site-logo {
+        font-size: 17px;
+    }  
+
+    header .site-logo:hover {
+        font-size: 20px;
+    }
+
+    .navbar-link a{
+        font-size: 13px;
+    }
+
+    .navbar-link a:hover{
+
+        font-size: 15px;
+    }
+}
+  

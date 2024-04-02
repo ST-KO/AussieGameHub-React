@@ -9,6 +9,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: true,
         remote: "Hybrid",
         website: "https://www.chaostheorygames.com/"
@@ -19,6 +20,7 @@ export const Data = {
         gameengine: "Unreal",
         language: "C++",
         Array: ["C++"],
+        array: ["cplusplus"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.riotgames.com/en"
@@ -29,6 +31,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.mode-games.com/"
@@ -39,6 +42,7 @@ export const Data = {
         gameengine: "Unity, Unreal, Phaser",
         language: "C#, C++, JavaScript",
         Array: ["C#", "C++", "JavaScript"],
+        array: ["csharp", "cplusplus", "javascript"],
         isRemote: true,
         remote: "Hybrid",
         website: "https://www.blowfishstudios.com/"
@@ -49,6 +53,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: true,
         remote: "Flexible",
         website: "https://noblesteedgames.com/"
@@ -59,6 +64,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: true,
         remote: "Flexible",
         website: "https://www.smgstudio.com/"
@@ -69,6 +75,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: true,
         remote: "Hybrid",
         website: "https://www.notdoppler.com/"
@@ -78,7 +85,8 @@ export const Data = {
         location: "Sydney",
         gameengine: "Custom Engine",
         language: "C++",
-        Array: ["C#"],
+        Array: ["C++"],
+        array: ["cplusplus"],
         isRemote: true,
         remote: "Hybrid",
         website: "https://www.ubisoft.com/en-us/"
@@ -89,6 +97,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://3rdsense.com/"
@@ -99,6 +108,7 @@ export const Data = {
         gameengine: "Maybe Unity & Phaser",
         language: "C#, JavaScript",
         Array: ["C#", "JavaScript"],
+        array: ["csharp", "javascript"],
         isRemote: false,
         remote: "N/A",
         website: "https://highlimitstudio.com/"
@@ -109,6 +119,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.hipsterwhale.com/"
@@ -119,6 +130,7 @@ export const Data = {
         gameengine: "Maybe Custom Engine",
         language: "C++",
         Array: ["C++"],
+        array: ["cplusplus"],
         isRemote: true,
         remote: "Possible",
         website: "https://www.playsidestudios.com/"
@@ -129,6 +141,7 @@ export const Data = {
         gameengine: "Unity, Unreal",
         language: "C#, C++",
         Array: ["C#", "C++"],
+        array: ["csharp", "cplusplus"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.mightygamesgroup.com/"
@@ -139,6 +152,7 @@ export const Data = {
         gameengine: "Maybe Custom Engine",
         language: "C++",
         Array: ["C++"],
+        array: ["cplusplus"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.ea.com/ea-studios/firemonkeys"
@@ -149,6 +163,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.playcorp.com/"
@@ -159,6 +174,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.fmod.com/"
@@ -169,6 +185,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://millipede.com.au/index.html"
@@ -179,6 +196,7 @@ export const Data = {
         gameengine: "Unity, Phaser",
         language: "C#, JavaScript",
         Array: ["C#", "JavaScript"],
+        array: ["csharp", "javascript"],
         isRemote: true,
         remote: "Full Remote (Australia)",
         website: "https://www.artofplaygames.com/index.html"
@@ -188,7 +206,8 @@ export const Data = {
         location: "Melbourne",
         gameengine: "Unreal",
         language: "C++",
-        Array: ["C#", "C++"],
+        Array: ["C++"],
+        array: ["cplusplus"],
         isRemote: true,
         remote: "Flexible Remote",
         website: "https://ultimate.studio/"
@@ -199,6 +218,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://thelode.com.au"
@@ -209,6 +229,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://cybergames.studio"
@@ -219,6 +240,7 @@ export const Data = {
         gameengine: "Unreal",
         language: "C++",
         Array: ["C++"],
+        array: ["cplusplus"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.opaque.media"
@@ -229,6 +251,7 @@ export const Data = {
         gameengine: "Unity",
         language: "C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: true,
         remote: "Full Remote (Worldwide)",
         website: "https://www.halfbrick.com"
@@ -239,6 +262,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://spungegames.com"
@@ -249,6 +273,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.reeltimegaming.com"
@@ -258,7 +283,8 @@ export const Data = {
         location: "Brisbane",
         gameengine: "Maybe Custom Engine",
         language: "C++",
-        Array: ["C#", "C++"],
+        Array: ["C++"],
+        array: ["cplusplus"],
         isRemote: true,
         remote: "Hybrid",
         website: "https://www.gameloft.com"
@@ -269,6 +295,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://emergeworlds.com"
@@ -279,6 +306,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.5livesstudios.com"
@@ -289,6 +317,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://eyecon.com"
@@ -299,6 +328,7 @@ export const Data = {
         gameengine: "Unity, Unreal",
         language: "C#, C++",
         Array: ["C#", "C++"],
+        array: ["csharp", "cplusplus"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.lightmare.com.au"
@@ -309,6 +339,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://unnaturalfreaksstudio.com"
@@ -319,6 +350,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://www.bigbench.games"
@@ -329,6 +361,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://winterwiregames.com"
@@ -339,6 +372,7 @@ export const Data = {
         gameengine: "Maybe Unity",
         language: "Maybe C#",
         Array: ["C#"],
+        array: ["csharp"],
         isRemote: false,
         remote: "N/A",
         website: "https://playstarlost.com"

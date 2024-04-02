@@ -2,7 +2,6 @@ import './styles.css';
 
 
 const Studios = ({data}) => {
-    
 
 
     return(
@@ -16,13 +15,13 @@ const Studios = ({data}) => {
                                 <p><span>Game Engine</span>: {studio.gameengine}</p>
                                 <p><span>Language</span>: {studio.language}</p>
                                 <p><span>Remote</span>: {studio.remote}</p>
-                                <p>
-                                    <div className="website-link">
+                                <div className="div-website-link">
+                                    <span className="website-link">
                                         <a  href={studio.website} target="_blank">
                                             Visit Website 
                                         </a>
-                                    </div>
-                                </p>
+                                    </span>
+                                </div>
                             </div>
                         );
                     })

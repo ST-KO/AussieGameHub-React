@@ -1,0 +1,318 @@
+.game-list-contaier-title {
+    color: white;
+}
+
+.game-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 34px;
+    margin-top: 57px;
+}
+
+.games-tile {
+    background: rgb(42, 42, 42);
+    border-radius: 40px;
+}
+
+.games-tile a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.games-tile img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+.game-info-name, .game-info-released-date {
+    margin-right: auto;
+}
+
+.game-info-released-date {
+    font-size: 15px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* border: solid red; */
+}
+
+
+.game-info-genre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    font-size: 12px;
+    gap: 100px;
+    /* border: 1px solid red; */
+}
+
+.game-info-genre-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    gap: 10px;
+    padding: 10px 0;
+    /* border: 1px solid blue; */
+}
+
+/* .game-info-genre-name-each {
+    margin-right: 10px;
+} */
+
+
+.game-list-filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    /* height: 50px; */
+    height: 100%;
+    padding: 6px 26px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    /* text-decoration: underline; */
+    background-color: transparent;
+    color: #4D4D4D;
+    /* border: 1px solid red; */
+}
+
+.game-genre {
+    height: 34px;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD0;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+    /* border: 1px solid red; */
+}
+
+
+.game-genre.selected, .game-genre:hover {
+    color: white;
+    cursor: pointer;
+}
+ 
+.game-genre.Action:hover, .game-genre.Action.selected {
+    background-color: #E17654;
+}
+
+.game-genre.Indie:hover, .game-genre.Indie.selected {
+    background-color: #115E59;
+}
+
+.game-genre.Puzzle:hover, .game-genre.Puzzle.selected {
+    background-color: #fc55f4;
+}
+
+.game-genre.Shooter:hover, .game-genre.Shooter.selected {
+    background-color: rgb(248, 165, 0);
+}
+
+.game-genre.RPG:hover, .game-genre.RPG.selected {
+    background-color: rgb(79, 50, 247);
+}
+
+.game-genre.Adventure:hover, .game-genre.Adventure.selected {
+    background-color: rgb(50, 155, 247);
+}
+
+.game-genre.Platformer:hover, .game-genre.Platformer.selected {
+    background-color: rgb(41, 201, 151);
+}
+
+.game-genre.Simulation:hover, .game-genre.Simulation.selected {
+    background-color: rgb(233, 95, 21);
+}
+
+.game-genre.Arcade:hover, .game-genre.Arcade.selected {
+    background-color: rgb(21, 131, 233);
+}
+
+.game-genre.Multiplayer:hover, .game-genre.Multiplayer.selected {
+    background-color: rgb(21, 233, 102);
+}
+
+.game-genre.Strategy:hover, .game-genre.Strategy.selected {
+    background-color: rgb(21, 233, 194);
+}
+
+.game-genre.Casual:hover, .game-genre.Casual.selected {
+    background-color: rgb(117, 107, 14);
+}
+
+.game-genre.Fighting:hover, .game-genre.Fighting.selected {
+    background-color: rgb(117, 60, 14);
+}
+
+.clear-filter {
+    height: 34px;
+    padding: 6px 20px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+    /* border: 1px solid red; */
+}
+
+.clear-filter:hover {
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.pagination-button {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pagination-button:hover, .pagination-button.selected {
+    background-color: #E17654;
+    color: white;
+    cursor: pointer;
+}
+
+.game-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.game-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    font-size: 18px;
+    /* border: 1px solid blue; */
+}
+
+.link-button{
+    background-color: #FF8C38;
+    color: white;
+    font-size: 1.125rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: .75rem 1.375rem;
+    font-weight: 1000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+    margin: auto;
+}
+
+.link-button:hover {
+    transform: translate(1px, 1px);
+}
+
+.game-detail p{
+    text-align: start;
+    line-height: 40px;
+}
+
+.game-detail img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.game-detail-title{
+    font-size: 50px;
+}
+
+.game-detail-description {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.back-button {
+    justify-self: flex-start;
+    color: white;
+    text-decoration: none;
+    margin-left: 26px;
+}
+
+.game-detail-publisher, .game-detail-developer, .game-detail-rating, .creator-detail-games{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+.creators-detail-container {
+    color: white;
+  
+}
+
+.creators-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 34px;
+    margin-top: 57px;
+}
+
+
+@media (max-width: 768px) {
+    .game-list, .creators-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .game-detail-title{
+        font-size: 40px;
+    }
+
+    .game-detail-publisher, .game-detail-developer, .game-detail-rating, .creator-detail-games{
+        gap: 11px;
+        font-size: 17px;
+        
+    }
+}
+  

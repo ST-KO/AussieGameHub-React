@@ -63,6 +63,7 @@ footer {
   padding: 1.3rem 0 ;
   margin: 1.2rem;
   width: 350px;
+  height: 100%;
   border-radius: 15px;
   letter-spacing: 1px;
 }
@@ -73,6 +74,10 @@ footer {
 
 .studio-card span{
     font-weight: 1000;
+}
+
+.div-website-link {
+  margin-top: 30px;
 }
 
 .website-link{
