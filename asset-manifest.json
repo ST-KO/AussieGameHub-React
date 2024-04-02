@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AussieGameHub-React/static/css/main.e8edec6c.css",
-    "main.js": "/AussieGameHub-React/static/js/main.33bbc179.js",
+    "main.css": "/AussieGameHub-React/static/css/main.147595a7.css",
+    "main.js": "/AussieGameHub-React/static/js/main.9c744f66.js",
     "static/js/453.d9127a26.chunk.js": "/AussieGameHub-React/static/js/453.d9127a26.chunk.js",
     "index.html": "/AussieGameHub-React/index.html",
-    "main.e8edec6c.css.map": "/AussieGameHub-React/static/css/main.e8edec6c.css.map",
-    "main.33bbc179.js.map": "/AussieGameHub-React/static/js/main.33bbc179.js.map",
+    "main.147595a7.css.map": "/AussieGameHub-React/static/css/main.147595a7.css.map",
+    "main.9c744f66.js.map": "/AussieGameHub-React/static/js/main.9c744f66.js.map",
     "453.d9127a26.chunk.js.map": "/AussieGameHub-React/static/js/453.d9127a26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8edec6c.css",
-    "static/js/main.33bbc179.js"
+    "static/css/main.147595a7.css",
+    "static/js/main.9c744f66.js"
   ]
 }
