@@ -119,7 +119,7 @@ export default function Creators() {
     
     return(
         <div class="creators-detail-container">
-             <h1 className="game-list-contaier-title">Explore Famous Creators</h1>
+             <h1 className="game-list-contaier-title">Explore Famous Game Creators</h1>
             <div className='creators-list'>
                 {creatorsElements}
             </div>
