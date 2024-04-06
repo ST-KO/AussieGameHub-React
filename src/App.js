@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/AussieGameHub-React/" element={<Homepage />}>
+          <Route path="/" element={<Homepage />}>
             {/* <Route index element={<Body />} /> */}
             {/* <Route index element={<Studio />} /> */}
             <Route path="studios" element={<Studio />} />

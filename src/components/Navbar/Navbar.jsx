@@ -12,7 +12,7 @@ const Navbar = () => {
     
     return (
         <header>
-            <Link to="/AussieGameHub-React" className='site-logo'>Aussie Game Hub</Link>
+            <Link to="/" className='site-logo'>Aussie Game Hub</Link>
             {/* <Link className='site-logo'>Aussie Game Hub</Link> */}
             <nav className='navbar-link'>
                 
