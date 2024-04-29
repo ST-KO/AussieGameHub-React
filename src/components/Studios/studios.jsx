@@ -2,7 +2,7 @@ import './styles.css';
 
 
 const Studios = ({data}) => {
-
+    
 
     return(
         <div className="cards" id="studio-cards">
@@ -11,6 +11,7 @@ const Studios = ({data}) => {
                         return(
                             <div className="studio-card" key={studio.name}>
                                 <h2>{studio.name}</h2>
+                                <img src={studio.image ? studio.image : "image/noimage.jpeg"} alt="blowfish" className='image' />
                                 <p><span>Location</span>: {studio.location}</p>
                                 <p><span>Game Engine</span>: {studio.gameengine}</p>
                                 <p><span>Language</span>: {studio.language}</p>

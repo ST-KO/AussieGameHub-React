@@ -72,6 +72,11 @@ footer {
     margin-bottom: 1rem;
 }
 
+.studio-card .image{
+  width: 90%;
+  border-radius: 10px;
+}
+
 .studio-card span{
     font-weight: 1000;
 }
